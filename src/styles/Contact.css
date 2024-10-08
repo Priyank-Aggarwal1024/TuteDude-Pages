@@ -1,0 +1,142 @@
+.tut-contact {
+    padding: 25px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.tut-contact-inner {
+    padding: 119px 16px;
+    display: flex;
+    justify-content: center;
+    gap: 92px;
+    border-radius: 17px;
+    background: radial-gradient(80.09% 75.06% at 30.09% 101.09%, #D333D3 0%, #800080 23%, #5D115D 52%, #350B35 100%);
+    width: 100%;
+}
+
+.tut-con-left-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 454px;
+}
+
+.tut-con-left-form-main {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+}
+
+.tut-con-inp {
+    display: flex;
+    width: 100%;
+    padding: 16px 16px 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 11px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: 0px 4px 35.3px 0px rgba(0, 0, 0, 0.25) inset;
+    outline: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 27px */
+}
+
+.tut-con-inp::placeholder {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 27px */
+    opacity: 0.7;
+}
+
+.tut-con-button {
+    color: #800080;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.5%;
+    /* 22.23px */
+    display: flex;
+    padding: 20px 49px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 7.998px;
+    background: var(--Group-Linear, linear-gradient(100deg, #B1B1B1 0.89%, #BDBDBD 9.58%, #EBE6E6 26.9%, #FFF 44.84%, #F0F0F0 64.21%, #CBCBCB 84.67%, #BEBEBE 102.86%));
+    box-shadow: 0px 4.279px 9.521px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tut-con-right {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 305px;
+}
+
+.tut-conr-top {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tut-conr-bottom {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+    opacity: 0.9;
+}
+
+@media(width<1024px) {
+    .tut-contact-inner {
+        flex-direction: column-reverse;
+        /* align-items: center; */
+        gap: 30px;
+        padding: 37px 16px;
+        border-radius: 0;
+        min-height: 100vh;
+    }
+
+    .tut-contact {
+        padding: 0;
+    }
+
+    .tut-con-left-form {
+        width: 100%;
+    }
+
+    .tut-con-left {
+        width: 100%;
+    }
+}
+
+@media(width<768px) {
+    .tut-conr-top {
+        font-size: 30px;
+    }
+
+    .tut-conr-bottom {
+        font-size: 16px;
+        opacity: .9;
+    }
+}

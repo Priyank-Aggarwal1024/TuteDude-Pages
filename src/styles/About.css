@@ -1,0 +1,258 @@
+.tut-about {
+    padding: 0 25px 39px 24px;
+
+
+}
+
+.tut-ab-top {
+    width: 100%;
+    /* height: 539px; */
+    border-radius: 17px;
+    background: radial-gradient(80.09% 75.06% at 30.09% 101.09%, #D333D3 0%, #800080 23%, #5D115D 52%, #350B35 100%);
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items: center;
+    overflow: hidden;
+    gap: 40px;
+
+}
+
+.tut-abt-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    max-width: 762px;
+}
+
+.tut-about-heading {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tut-abt-text {
+    color: var(--Neutral-Color-50, #F7F7F8);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    /* 30px */
+}
+
+.tut-abt-bottom {
+    margin-bottom: -4px;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    padding-left: 60px;
+}
+
+.tut-abtb1 {
+    margin-right: -96px;
+}
+
+.tut-abtb2 {
+    position: relative;
+    z-index: 2;
+}
+
+.tut-abtb3 {
+    margin-left: -51px;
+}
+
+.tut-ab-wwa {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+    padding: 96px 16px;
+}
+
+.tut-ab-ov {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+    padding: 0 16px;
+}
+
+.t-wwa-left {
+    display: inline-flex;
+    padding: 31.5px 30px 31.5px 39px;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 660px;
+    border-radius: 28px;
+    background: #FFF;
+    box-shadow: 0px 4px 25.3px 0px rgba(137, 137, 137, 0.25);
+}
+
+.twwa-top {
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.twwa-middle {
+    color: var(--Woodsmoke-950, #1B1B1D);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+    opacity: 0.9;
+}
+
+.twwa-bottom {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.5%;
+    /* 22.23px */
+    display: flex;
+    padding: 20px 49px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7.998px;
+    background: #800080;
+    box-shadow: 0px 4.279px 9.521px 0px rgba(0, 0, 0, 0.25);
+    width: fit-content;
+}
+
+.t-wwa-left {
+    position: relative;
+    overflow: hidden;
+}
+
+.tut-ab-ov-design {
+    position: absolute;
+    /* opacity: 0.2; */
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+@media(width<1024px) {
+    .tut-about-heading {
+        font-size: 46px;
+    }
+
+    .tut-abt-text {
+        font-size: 18px;
+    }
+
+    .twwa-top {
+        font-size: 36px;
+    }
+
+    .tut-ab-wwa {
+        flex-direction: column-reverse;
+    }
+
+    .tut-ab-ov {
+        flex-direction: column;
+    }
+
+    .t-wwa-left {
+        max-width: unset;
+        width: 100%;
+
+    }
+}
+
+@media(width<768px) {
+    .tut-about-heading {
+        font-size: 36px;
+    }
+
+    .t-wwa-left {
+        gap: 16px;
+    }
+
+    .twwa-top {
+        font-size: 30px;
+    }
+
+    .t-wwa-right {
+        width: 350px;
+        height: 350px;
+    }
+
+    .twwa-middle {
+        font-size: 14px;
+    }
+
+    .twwa-bottom {
+        font-size: 16px;
+        padding: 14px 35px;
+    }
+
+    .tut-abt-text {
+        font-size: 16px;
+    }
+
+    .tut-abt-bottom {
+        margin-bottom: -10px;
+    }
+
+    .tut-abtb1 {
+        height: 176px;
+        width: 142px;
+        margin-right: -56px;
+    }
+
+    .tut-abtb2 {
+        height: 170px;
+        width: 127px;
+
+    }
+
+    .tut-abtb3 {
+        height: 170px;
+        width: 152px;
+        margin-left: -27px;
+    }
+
+    .tut-about {
+        padding: 0 11px;
+    }
+
+    .t-wwa-left {
+        padding: 15px 16px 16px 16px;
+
+    }
+}
+
+@media(width<580px) {
+    .tut-about-heading {
+        font-size: 30px;
+    }
+
+    .tut-abt-text {
+        font-size: 14px;
+    }
+
+    .t-wwa-right {
+        width: 279px;
+        height: 279px;
+    }
+}

@@ -1,0 +1,26 @@
+.tutedude-pages-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 6px 16px 7px 16px;
+    /* height: 100px; */
+    background: #FFF;
+    box-shadow: 0px 4px 15.4px 0px rgba(0, 0, 0, 0.06);
+
+
+}
+
+@media(width<580px) {
+    .tutedude-pages-nav {
+        height: 54.147px;
+        padding: 20.055px 16.044px;
+        align-items: center;
+        gap: 46.126px;
+    }
+
+    .tutedude-pag-logo {
+        width: 119.325px;
+        height: 34.093px;
+        flex-shrink: 0;
+    }
+}
